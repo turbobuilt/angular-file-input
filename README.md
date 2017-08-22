@@ -3,7 +3,7 @@ This is a repo for an angular file input directive.  This particular version has
 
 The other reason this file input is great is because it deals with another annoying problem of file inputs.  Normally if you select a file, close the input, and select the same one the next time you open it, the browser will not fire the change event.  This makes sense because technically nothing has changed.  However, this is usually not the behavior you want.  You normally want the browser to fire the event any time the user selects something and pushes "OK".  This directive solves that problem by creating a new input each time you select something.  That way everything will work as you'd expect.
 
-Usage is pretty simple.  Since this directive is so small, just copy and paste it somewhere into your javascript, but make sure to replace the "YOUR_APP_HERE" text with the name of your angular module.
+Usage is pretty simple.  Since this directive is so small, just copy and paste the contents of `file-input.js` somewhere into your javascript.  Then make sure to replace the "YOUR_APP_HERE" text with the name of your angular module, otherwise it won't be recognized.
 
 Then, put it into your app like this:
 
